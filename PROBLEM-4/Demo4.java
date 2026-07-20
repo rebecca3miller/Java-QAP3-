@@ -1,4 +1,4 @@
-public class Demo {
+public class Demo4 {
 
     // Static method
     public static void scaleShapes(Scalable[] shapes, double factor) {

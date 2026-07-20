@@ -31,6 +31,7 @@ public class Person {
         this.myGender = gender;
     }
 
+    @Override
     public String toString() 
     {
         return myName + ", Age: " + myAge + ", Gender: " + myGender;

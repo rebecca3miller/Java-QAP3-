@@ -31,6 +31,7 @@ public class CollegeStudent extends Student {
         this.major = major;
     }
 
+    @Override
     public String toString() 
     {
         return super.toString() + ", Year: " + year + ", Major: " + major;

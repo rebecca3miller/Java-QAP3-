@@ -31,6 +31,7 @@ public class Teacher extends Person {
         this.salary = salary;
     }
 
+    @Override
     public String toString() 
     {
         return super.toString() + ", Subject: " + subject + ", Salary: " + salary;

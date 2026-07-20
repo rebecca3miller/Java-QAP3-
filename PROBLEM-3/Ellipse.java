@@ -27,11 +27,4 @@ public class Ellipse extends Shape {
     {
         return Math.PI * (3 * (a + b) - Math.sqrt((3 * a + b) * (a + 3 * b)));
     }
-
-    @Override
-    public void scale(double factor)
-    {
-        a *= factor;
-        b *= factor;
-    }
 }

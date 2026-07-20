@@ -22,6 +22,8 @@ public class Demo {
 
         };
 
+        System.err.println("Before Scaling:");
+
         for(Shape shape : shapes) {
             System.out.println(shape);
             System.out.println("----------------");

@@ -33,4 +33,12 @@ public class Triangle extends Shape {
         return side1 + side2 + side3;
     }
 
+    @Override
+    public void scale(double factor)
+    {
+        side1 *= factor;
+        side2 *= factor;
+        side3 *= factor;
+    }
+
 }
